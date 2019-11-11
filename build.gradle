@@ -22,7 +22,7 @@ repositories {
 
 dependencies {
     implementation 'com.google.code.gson:gson:2.6.1' // renovate should bump this to 2.6.2 even though 2.8.x is released
-    implementation 'org.slf4j:slf4j-api:1.7.25' // renovate should not bump this (1.8 doesn't have a stable release)
+    implementation 'org.slf4j:slf4j-api:1.7.29' // renovate should not bump this (1.8 doesn't have a stable release)
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
